@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  background-color: rgba(41, 39, 43, 0.911);
+  color: white;
+  gap: ;
+  width: 100%;
+}
+
+/*.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+*/
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin-right: 150px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 16px;
+  margin-left: auto;
+}
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.911);
+  padding: 40px 0;
+  color: white;
+  min-height: 300px;
+}
+
+.awesome-text {
+  width: 500px;
+}
+
+h1 {
+  color: #eee;
+  font-size: 48px;
+}
+
+.awesome-text > .welcome-text {
+  color: #aaa;
+  font-size: 24px;
+}
+
+.dobby-img {
+  display: flex;
+  max-width: 450px;
+  height: auto;
+  border-radius: 49%;
+  filter: blur(1px);
+  border: 1px solid red;
+  box-shadow: 0 2px 20px 1px red;
+}
