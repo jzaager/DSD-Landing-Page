@@ -83,6 +83,7 @@ h1 {
   flex-wrap: wrap;
   background-color: rgba(41, 40, 40, 0.877);
   gap: 0 45px;
+  padding: 40px 0;
 }
 
 h2 {
@@ -117,3 +118,38 @@ h2 {
   font-size: 20px;
   margin-left: 20px;
 }
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(119, 119, 119);
+  padding: 60px 0;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.quote > .attribution {
+  display: flex;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-right: 40px;
+}
+
+.action-wrapper {
+  display: flex;
+  background-color: #aaa;
+  padding: 40px 0;
+}
+
