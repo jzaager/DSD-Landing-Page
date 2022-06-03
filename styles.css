@@ -46,7 +46,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.911);
+  background-color: rgba(41, 39, 43, 0.911);
   padding: 40px 0;
   color: white;
   min-height: 300px;
@@ -81,7 +81,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.877);
+  background-color: rgba(0, 0, 0, 0.849);
   gap: 0 45px;
   padding: 40px 0;
 }
@@ -122,7 +122,8 @@ h2 {
 .quote-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: rgb(119, 119, 119);
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.89);
   padding: 20px 0;
 }
 
@@ -151,20 +152,21 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #aaa;
+  background-color: rgba(0, 0, 0, 0.938);
   padding: 40px 0;
 }
 
 .action-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #eee;
+  background-color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 3rem 6rem;
   width: 60%;
   justify-content: space-between;
-  box-shadow: 0 2px 8px 1px rgba(56, 56, 56, 0.842);
-  border: 1px solid #aaa;
+  box-shadow: 0 2px 8px 1px rgba(255, 0, 0, 0.842);
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(184, 184, 184);
 }
 
 .action-header {
@@ -179,16 +181,20 @@ h2 {
 
 .action-container > button {
   align-self: center;
-  background-color: #eee;
+  background-color: rgba(31, 31, 31, 0.76);
   border-radius: 5px;
-  padding: 8px 16px;
+  padding: 10px 4em;
+  border: 1px solid red;
+  color: white;
 }
 
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: rgb(32, 26, 51);
-  color: white;
+  background-color: rgb(0, 0, 0);
+  color: red;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .action-wrapper,
