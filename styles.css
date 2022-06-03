@@ -14,15 +14,15 @@ body {
 
 .header {
   padding: 2px 0;
-  background-color: rgba(41, 39, 43, 0.911);
-  color: white;
+  background-color: rgba(110, 0, 0, 0.911);
+  color: black;
 }
 
 .header-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 38vw;  
+  gap: 28vw;  
 }
 
 .logo {
@@ -39,12 +39,12 @@ ul {
 }
 
 li {
-  padding: 8px 16px;
+  padding: 8px 20px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .top-wrapper {
@@ -91,7 +91,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.849);
-  gap: 0 45px;
+  gap: 0 70px;
   padding: 40px 0;
 }
 
